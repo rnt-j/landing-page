@@ -1,0 +1,239 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+main{
+  position: absolute;
+  background-color:#008080;
+  width: 1200px;
+  top: 0;
+  height: 100vh;
+  z-index: 1;
+  left: 20%;
+  overflow: hidden;
+
+}
+.bar{
+  margin: 0;
+background-color:#C0C0C0;
+position: absolute;
+bottom: 0;
+width: 100%;
+height: 50px;
+z-index: 2;
+border-top: 3px solid #ffffff;
+display: flex;
+align-items: center;
+padding-left: 5px;
+
+}
+.start{
+  gap: 5px;
+  font-size: 10px;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  background-color:#C0C0C0;
+  position: absolute;
+  width: 90px;
+  height: 40px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #dfdfdf;
+  cursor: pointer;
+}
+.start:active{
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #dfdfdf;
+}
+@font-face {
+  font-family: "Pixelated MS Sans Serif";
+  src: url("https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff2") format("woff2"),
+       url("https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;}
+.icon1{
+  color: white;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+.icon1:hover{
+  background-color: rgba(164, 231, 231, 0.418);
+}
+.icon2:hover{
+  background-color: rgba(164, 231, 231, 0.418);
+}
+.icon3:hover{
+  background-color: rgba(164, 231, 231, 0.418);
+}
+.link{
+  color: #ffffff;
+  text-decoration: none;
+}
+.icon2{
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  position: absolute;
+  top: 140px;
+  left: 20px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+.icon3{
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  position: absolute;
+  top: 270px;
+  left: 20px;
+  width: 100px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-items: center;
+}
+.principal{
+  background-color:#C2C7C9;
+  position: absolute;
+  width: 600px;
+  height: 505px;
+  right: 300px;
+  top: 200px;
+  padding: 5px;
+  border-bottom: 3px solid #404040;
+  border-right: 3px solid #404040;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+  
+}
+.faixa{
+  color: #d8d6d6;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  font-size: 8px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color:#0000A8;
+  width: 100%;
+  height: 25px;
+}
+.web{
+  background-color:  #FFFFEC;
+  width: 599px;
+  height: 300px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.explorer{
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
+.browser{
+  position: relative;
+  left: 27px;
+}
+.buttons{
+  position: absolute;
+  right: 0;
+  top: 2px;
+}
+.rodape{
+  position: absolute;
+  bottom: 0.5px;
+}
+.image1 {
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+.image2 {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+}
+
+.image3 {
+  position: absolute;
+  top: 300px;
+  left: 20px;
+}
+.image4 {
+  position: absolute;
+  top: 450px;
+  left: 30px;
+}
+
+.image5 {
+  position: absolute;
+  top: 150px;
+  left: 10px; }
+  .image7 {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+  }
+  
+  .image8 {
+    position: absolute;
+    top: 200px;
+    right: 60px;
+  }
+  
+  .image9 {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+  }
+  .image10 {
+    position: absolute;
+    top: 450px;
+    right: 30px;
+  }
+  
+  .image11 {
+    position: absolute;
+    top: 150px;
+    right: 10px; }
+  .image12{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+  }
+  .titulo-web{
+    background-color: #ff00ea;
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+  
+  }
