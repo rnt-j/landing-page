@@ -52,6 +52,34 @@ padding-left: 5px;
   border-right-color: #fff;
   box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #dfdfdf;
 }
+.doom-butt{
+  gap: 5px;
+  font-size: 10px;
+  font-family: "Pixelated MS Sans Serif", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  background-color:#C0C0C0;
+  position: absolute;
+  left: 110px;
+  width: 90px;
+  height: 40px;
+  border-top: 3px solid white;
+  border-left: 3px solid white;
+  border-right: 3px solid black;
+  border-bottom: 3px solid black;
+  box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #dfdfdf;
+  cursor: pointer;
+
+}
+
+
+.doom-butt:active{
+  border-top-color: #404040;
+  border-left-color: #404040;
+  border-bottom-color: #fff;
+  border-right-color: #fff;
+  box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #dfdfdf;}
 @font-face {
   font-family: "Pixelated MS Sans Serif";
   src: url("https://unpkg.com/98.css@0.1.16/dist/ms_sans_serif.woff2") format("woff2"),
@@ -269,6 +297,7 @@ padding-left: 5px;
   position: relative;
   top: 2px;
   border-radius: 5px;
+ 
 }
 .titulo-doom{
   position: relative;
@@ -281,4 +310,10 @@ padding-left: 5px;
 .button-doom{
   position: absolute;
   right: 0;
+}
+.topico{
+  font-size: 15px;
+}
+.texto-principal{
+  font-size: 15px;
 }
